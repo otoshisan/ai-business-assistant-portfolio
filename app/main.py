@@ -1,6 +1,6 @@
 import requests
 
-GAS_ENDPOINT = "https://script.google.com/macros/s/AKfycbw-AlHYpie5zIoAXEzyuh3C9hsi5uEqHjY_ibaO_IujrlHi5u5I4Q-O7kryHFibXhmqDQ/exec"
+GAS_ENDPOINT = "https://script.google.com/macros/s/AKfycbzYFncM2krub5I6aa9iM090TPFJUbmlXkEhny7PVP2VXLfITwPe9ej_jyVHsqBd7sgqbQ/exec"
 
 res = requests.post(
     GAS_ENDPOINT,
