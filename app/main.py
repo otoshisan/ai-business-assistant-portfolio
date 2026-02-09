@@ -1,6 +1,6 @@
 import requests
 
-GAS_ENDPOINT = "https://script.google.com/macros/s/AKfycbxyZkOkQUYE0M7aIyRz0SrXTYM9XS11gT7NrEkcijaD12yE-E_tYyKrLQbERrk6a3PY3A/exec"
+GAS_ENDPOINT = "https://script.google.com/macros/s/AKfycbzWbfLBIVcVdyY9YWTvUj7kKMhVpdBy2eiLOeounmo6KAUlsw3EX_t2-OlsgTn0ufIk/exec"
 
 def create_reservation(data: dict):
     response = requests.post(
